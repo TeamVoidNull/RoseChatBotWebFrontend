@@ -1,0 +1,23 @@
+{
+  "name": "chatbotfrontend",
+  "version": "1.0.0",
+  "description": "The front end for Rose Chatbot",
+  "main": "server.js",
+  "scripts": {
+    "run": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamVoidNull/RoseChatBotWebFrontend.git"
+  },
+  "author": "TeamVoidNull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamVoidNull/RoseChatBotWebFrontend/issues"
+  },
+  "homepage": "https://github.com/TeamVoidNull/RoseChatBotWebFrontend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
