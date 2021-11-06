@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.left_half{
+    background-color: #800000;
+    height: 100%;
+    width: 600px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin: 0px;
+
+}
+.sign_in{
+    justify-content:center;
+
+}
+
+.sign_in p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-top: 150px;
+}
+
+
+
+.rose_link{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+.rose_name{
+    width: 530px;
+    height: 100px;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+
+.right_half{
+    margin-left: 600px;    
+}
+
+.main_header{
+    background-color: #28ADCD;
+    height: 50px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px; 
+    color:white;
+}
+
+.chat_block{
+    background-color: #F2F4F9;
+    height: 643px;
+    margin: 0px;
+}
+
+.send{
+    padding-top: 7px;
+    margin-left: 900px;
+}
