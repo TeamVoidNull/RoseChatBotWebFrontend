@@ -61,11 +61,29 @@ body{
 
 .chat_block{
     background-color: #F2F4F9;
-    height: 643px;
+    height: 590px;
     margin: 0px;
 }
+
 
 .send{
     padding-top: 7px;
     margin-left: 900px;
+}
+
+.user_msg{
+    background-color: #63ABFF;
+    width:fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.bot_msg{
+    background-color: #FFFF;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+
 }
