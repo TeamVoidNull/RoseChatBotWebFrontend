@@ -62,3 +62,4 @@ rchat.main = function(){
 }
 
 rchat.main();
+
