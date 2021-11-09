@@ -4,33 +4,52 @@
 <head>
   <meta charset="utf-8">
   <title>Chatbot Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
 
-  <div class="left_half">
-    <img class="rose_name" src="images/rose_name.png" />
-    <div class="sign_in">
-      <p>Sign In</p>
+  <div class="container page-container no-gutters">
+    <div class="row no-gutters tall">
+      <div class="left-half col-4">
+        <img class="rose-name" src="images/rose_name.png" />
+        <div class="sign-in">
+          <p>Sign In</p>
 
+        </div>
+        <p class="rose-link">rose-hulman.edu</p>
+
+
+      </div>
+
+      <div class="right-half col-8">
+        <div class="row no-gutters header">
+          <h1 class="main-header">Rose Chatbot</h1>
+        </div>
+        <div class="row no-gutters chat-block">
+          <div id="chatBlock" class="col no-gutters chat-col"></div>
+        </div>
+        <div class="row no-gutters type-block">
+          <div class="col-11">
+            <input id="input-box" class="input-box" type="text" placeholder="Say something..."/>
+          </div>
+          <div class="col-1">
+            <img id="send" class="send" src="images/Send.png" />
+          </div>
+        </div>
+
+      </div>
     </div>
-    <p class="rose_link">rose-hulman.edu</p>
-
-
   </div>
 
-  <div class="right_half">
-    <div>
-      <h1 class="main_header">Rose Chatbot</h1>
-    </div>
-
-    <div class="chat_block"></div>
-    <div class="type_block">
-      <img class="send" src="images/Send.png" />
-    </div>
-
-  </div>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.js"></script>
+  <script src="scripts/bootstrap-material-design.js"></script>
+  <script>$("body").bootstrapMaterialDesign();</script>
+  <script src="scripts/main.js"></script>
 
 </body>
 
