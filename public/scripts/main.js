@@ -1,6 +1,6 @@
 var rchat = rchat || {};
 
-rchat.test = true;
+rchat.test = fase;
 
 rchat.url = rchat.test ? "http://localhost:8080/" : "http://teamvoidnull.csse.rose-hulman.edu:8080/"
 
